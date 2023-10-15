@@ -61,12 +61,12 @@ nav a {
   transition: 0.3s;
 }
 
-#Booking {
-  background-color: #30ab9e;
+nav a:hover {
   color: white;
+  background-color: #30ab9e;
 }
 
-nav a:hover {
+#Booking {
   color: white;
   background-color: #30ab9e;
 }
@@ -86,10 +86,46 @@ nav a:hover {
   display: inline;
 }
 
+.calendarHeader {
+  text-align: center;
+  margin-top: 45px;
+  color: #333;
+}
+
 .calendar {
   display: flex;
   justify-content: center;
   margin-top: 45px;
+}
+
+.bookingDate {
+  text-align: center;
+  margin-top: 45px;
+}
+
+#date {
+  border: #5ea892 2px solid;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.purchase {
+  margin-top: 71px;
+  text-align: center;
+  color: #333;
+  background-color: #d0eae2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  padding-left: 180px;
+  padding-right: 180px;
+  border-radius: 10px;
+}
+
+.purchaseContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .artimgs {
@@ -102,7 +138,6 @@ nav a:hover {
   height: 216px;
   object-fit: cover;
   border-radius: 5px;
-  margin-top: 71px;
 }
 
 .artImgText {
@@ -110,20 +145,54 @@ nav a:hover {
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
+}
+
+.artButton {
+  border: ;
+  margin-top: 71px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  background-color: #f4f4f5;
+  transition: 0.3s;
+}
+
+.artButton h4 {
+  width: 323px;
+  text-align: center;
+  font-size: 20px;
   margin-top: 20px;
 }
 
-.artImgText h4 {
+.artButton p {
   width: 323px;
-}
-
-.artImgText2 {
   text-align: center;
-  display: flex;
-  justify-content: space-evenly;
   margin-top: 10px;
 }
 
-.artImgText2 p {
-  width: 323px;
+.hmm {
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.checkDiv {
+  text-align: center;
+}
+
+.submitButton {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.submitButton button {
+  background-color: #30ab9e;
+  color: white;
+  padding: 14px 23px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
 }

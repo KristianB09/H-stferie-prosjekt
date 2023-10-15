@@ -28,40 +28,67 @@
         </nav>
       </div>
     </header>
+    <div class="calendarHeader">
+      <h1>Please choose an available time</h1>
+    </div>
     <div class="calendar">
       <iframe
-        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23f4f4f5&ctz=Europe%2FOslo&src=a3Jpc3RpYW5iMDkua29kZWhvZGVAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=OGU0NDU0N2I5MWFlYTQ4NGUxMTdmOGZiZWIyMDk3ZmE0MzYwYTZiNGQwZTM4YzUzYzc3ZDFmNDVjZTkwOTVhY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4ubm9yd2VnaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19oNDhydXQyNDdjc25lY3EzbjlkcjdhdHMzZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20wNDIyMTU0MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19vZ2xmOTE0NTIyMjU0ZGkydmYxY2oyNnIwc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%23616161&color=%230B8043&color=%237CB342&color=%23007b83&color=%23795548"
-        style="border: solid 1px #777"
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FOslo&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=0&src=OGU0NDU0N2I5MWFlYTQ4NGUxMTdmOGZiZWIyMDk3ZmE0MzYwYTZiNGQwZTM4YzUzYzc3ZDFmNDVjZTkwOTVhY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161"
+        style="border-width: 0"
         width="800"
         height="600"
         frameborder="0"
         scrolling="no"
       ></iframe>
     </div>
+    <div class="bookingDate">
+      <label for="date" id="dateText">Select your booking date:</label>
+      <input type="date" id="date" name="date" />
+    </div>
+    <div>
+      <div class="purchaseContainer">
+        <h1 class="purchase">Please select a kit you wish to purchase</h1>
+      </div>
+    </div>
     <div class="artimgs">
-      <img src="../images/Mosaic.jpg" alt="" />
-      <img src="../images/Watercolor.jpg" alt="" />
-      <img src="../images/Canvas.jpg" alt="" />
+      <div class="artButton">
+        <img src="../images/Mosaic.jpg" alt="" />
+        <h4>Mosaic art kit - 400kr</h4>
+        <p>
+          Kit includes: Frame, A4 size wood pallet to stick small regular or
+          irregular pieces of colored stone, gum.
+        </p>
+        <div class="checkDiv">
+          <input type="checkbox" name="artCheck" id="artCheck" class="hmm" />
+        </div>
+      </div>
+      <div class="artButton">
+        <img src="../images/Watercolor.jpg" alt="" />
+        <h4>Watercolor art kit - 200kr</h4>
+        <p>
+          Kit includes: Frame, watercolor painting paper with outline design,
+          Watercolors, brushes.
+        </p>
+        <div class="checkDiv">
+          <input type="checkbox" name="artCheck" id="artCheck" class="hmm" />
+        </div>
+      </div>
+      <div class="artButton">
+        <img src="../images/Canvas.jpg" alt="" />
+        <h4>Canvas art kit - 300kr</h4>
+        <p>
+          Kit includes: Frame, Acrylic painting paper with outline design,
+          Acrylic colors, brushes.
+        </p>
+        <div class="checkDiv">
+          <input type="checkbox" name="artCheck" id="artCheck" class="hmm" />
+        </div>
+      </div>
     </div>
-    <div class="artImgText">
-      <h4>Mosaic art kit - 400kr</h4>
-      <h4>Watercolor art kit - 200kr</h4>
-      <h4>Canvas art kit - 300kr</h4>
+    <div class="submitButton">
+      <button>Submit</button>
     </div>
-    <div class="artImgText2">
-      <p>
-        Kit includes: Frame, A4 size wood pallet to stick small regular or
-        irregular pieces of colored stone, gum.
-      </p>
-      <p>
-        Kit includes: Frame, watercolor painting paper with outline design,
-        Watercolors, brushes.
-      </p>
-      <p>
-        Kit includes: Frame, Acrylic painting paper with outline design, Acrylic
-        colors, brushes.
-      </p>
-    </div>
+
     <div class="bottomSocials">
       <div class="logoText">
         <img src="../images/Facebook.png" />
